@@ -10,14 +10,14 @@ interface AutoCompleteProps {
   labelProps: string;
   classNameProps?: string;
   onChange?: (
-    event: ChangeEvent<{}>, // Change the type of event to ChangeEvent<{}> or specify the target element type if known
-    newValue: { itemName: string; itemValue: string | number } | null, // Include null as a valid value option
-    reason: AutocompleteChangeReason, // Include the reason for the change
+    event: ChangeEvent<{}>, 
+    newValue: { itemName: string; itemValue: string | number } | null, 
+    reason: AutocompleteChangeReason, 
     details?:
       | {
           option?: { itemName: string; itemValue: string | number };
         }
-      | undefined // Include optional details
+      | undefined 
   ) => void;
   onClickProps?: (value: number | string) => void;
   nome: string;
