@@ -1,0 +1,10 @@
+.buttonPreto {
+  padding: 8px 22px;
+  background-color: #26272B;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-family: 'Nunito';
+  font-weight: 700;
+  cursor: pointer;
+}
